@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <title>Document</title>
+   <style>
+      section{
+         padding: 60px 0;
+      }
+   </style>
+</head>
+<body>
+<!--navbar-->
+<nav class="navbar">
+   <div class="container-xxl">
+      <a href="#intro" class="navbar-brand">
+         <span class="fw-bold text-secondary">
+            net-ninja pro the book
+         </span>
+      </a>
+      <!--toggle button-->
+      <button class="navbar-toggler" type="buttton" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--navbar links-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+         <div class="container-fluid">
+           <a class="navbar-brand" href="#">Navbar</a>
+           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon"></span>
+           </button>
+           <div class="collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav">
+               <li class="nav-item">
+                 <a class="nav-link active" aria-current="page" href="#">Home</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#">Features</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link" href="#pricing">Pricing</a>
+               </li>
+               <li class="nav-item">
+                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+               </li>
+             </ul>
+           </div>
+         </div>
+       </nav>
+
+
+
+<!--image and text-->
+<section id="intro">
+<div class="container-lg">
+   <div class="row justify-content-center align-items-center">
+      <div class="col-md-5 text-center text-md-start">
+         <h1>
+            <div class="display-2">black belt</div>
+            <div class="display-5 text-muted">your coding skills</div>
+         </h1>
+         <p class="lead my-4 text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+         <a href="#pricing" class="btn btn-secondary btn-lg">buy now</a>
+      </div>
+      <div class="col-md-5 text-center d-none d-md-block">
+         <img class="img-fluid" src="/images//about-img.png" alt="cover">
+      </div>
+   </div>
+</div>
+</section>
+
+<!--cards-->
+<section  id="pricing" class="bg-light mt-5">
+   <div class="container-lg">
+<div class="text-center">
+   <h2>pricing plan</h2>
+   <p class="lead text-muted">plans for u</p>
+</div>
+
+<div class="row my-5 align-items-center justify-content-center g-0">
+   <div class="col-8 col-lg-4 col-xl-3">
+      <div class="card border-0">
+         <div class="card-body text-center py-4">
+<h4 class="class-title">starter editor</h4>
+<p class="lead card-subtitle">ebook download only</p>
+<p class="display-5 my-4 text-primary fw-bold">$12.99</p>
+<p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus voluptatem tempora temporibus suscipit voluptas perferendis?</p>
+<a href="#" class="btn btn-outline-primary btn-lg mt-3">buy now</a>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="col-9 col-lg-4">
+      <div class="card border-primary border-2">
+         <div class="card-header text-center text-primary">most porpular</div>
+         <div class="card-body text-center py-5">
+            <h4 class="card-title">complete edition</h4>
+            <p class="lead card-subtitle">eboook download & all updates</p>
+            <p class="display-4 my-4 text-primary fw-bold">$18.99</p>
+            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi deleniti earum debitis voluptatem quis doloribus?</p>
+            <a href="#" class="btn btn-outline-primary btn-lg mt-3">buy now</a>
+         </div>
+      </div>
+   </div>
+
+   <div class="col-8 col-lg-4 col-xl-3">
+      <div class="card border-0">
+         <div class="card-body text-center py-4">
+            <h4 class="card-title">ultimate edition</h4>
+            <p class="lead card-subtitle">download, updates & extras</p>
+            <p class="display-4 my-4 text-primary fw-bold">$24.99</p>
+            <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi deleniti earum debitis voluptatem quis doloribus?</p>
+            <a href="#" class="btn btn-outline-primary btn-lg mt-3">buy now</a>
+         </div>
+      </div>
+   </div>
+</div>
+
+
+   </div>
+</section>
+
+
+
+<!--accordion-->
+<section id="topics">
+   <div class="container-nd">
+      <div class="text-center">
+         <h2>inside the book......</h2>
+         <p class="lead text-muted">a quick glance at the topic</p>
+      </div>
+
+      <div class="row my-5 g-5 justify-content-around align-items-center">
+         <div class="col-6 col-lg-4">  
+            <img src="/images/hero-bg.jpg" class="img-fluid" alt="">
+         </div>
+
+         <!--main-->
+         <div class="accordion" id="chapter">
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="heading-1">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1" aria-expanded="true" aria-controls="chapter-1">chapter 1 - your first web page
+                  </button>
+               </h2>
+               <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1" data-bs-parent="#chapters">
+                  <div class="accordion-body">
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta ratione eveniet voluptatibus similique sed officia eum quo veritatis autem! Temporibus.</p>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id rerum nobis pariatur sit officiis vitae veniam ab, ratione modi perspiciatis nisi repellat repudiandae. Asperiores, dolorum!=</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+
+
+<!--list-->
+<section id="reviews" class="bg-light">  
+ <div class="container-lg">
+  <div class="text-center">
+   <h2>book review</h2>
+   <p class="lead">boks they like......</p>
+  </div>
+
+<div class="row justify-content-center">
+   <div class="col-lg-8">
+      <div class="list-group">
+         <div class="list-group-item py-3">
+            <h5 class="mmb-1">a mmust buuy for evveryone</h5>
+            <p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, officia sit sequi dolorem rem quos ipsa atque incidunt praesentium repellat suscipit voluptatum doloribus, minus voluptates saepe placeat nemo omnis molestiae.</p>
+            <small>review by mario</small>
+         </div>
+      </div>
+   </div>
+</div>
+
+ </div>
+</section>
+
+
+
+
+
+
+
+
+<i class="bi bi-alarm"></i>
+<i class="bi bi-chat-left-dots-fill"></i>
+<i class="bi bi-envelope-check-fill"></i>
+<i class="bi bi-instagram"></i>
+<i class="bi bi-telephone"></i>
+<i class="bi bi-whatsapp"></i>
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
